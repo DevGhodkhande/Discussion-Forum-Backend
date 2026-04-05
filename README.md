@@ -41,30 +41,67 @@ com.example.demo
 ## How to Run
 
 ```bash
-1. Clone the repository: git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
+Step 1: Clone the repository: git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
 
-2. Open IntelliJ or VS Code
+Step 2: Open IntelliJ or VS Code
+Then locate src/main/java/com.example.demo/DemoApplication.java
 
-3. DemoApplication.java
+Run: DemoApplication.java
 
-4. http://localhost:8080
+Check: Tomcat started on port 8080
 
+Step 3: Use Postman
 
-======Sample Request======
-Create Post
-{
-  "title": "My First Post",
-  "content": "Hello backend!"
-}
 Create User
+POST http://localhost:8080/users
+Then go to Body → raw → and paste in JSON:
 {
   "username": "devang",
   "email": "devang@gmail.com",
   "password": "1234"
 }
+
+👉 Click Send
+
+Create Post
+POST http://localhost:8080/posts
+Then go to Body → raw → and paste in JSON:
+{
+  "title": "My First Post",
+  "content": "Hello backend!"
+}
+
+👉 Click Send
+
 Create Comment
+POST http://localhost:8080/comments
+Then go to Body → raw → and paste in JSON:
 {
   "text": "Nice post!",
   "post": { "id": 1 },
   "user": { "id": 1 }
 }
+
+👉 Click Send
+
+GET to view data
+
+Posts:
+GET http://localhost:8080/posts
+👉 Click Send
+
+Users:
+GET http://localhost:8080/users
+👉 Click Send
+
+Comments:
+GET http://localhost:8080/comments
+👉 Click Send
+
+Testing error
+GET http://localhost:8080/posts/999
+👉 Click Send
+Should show:
+Post not found
+
+=====End of File=====
