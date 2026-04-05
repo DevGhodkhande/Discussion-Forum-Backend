@@ -30,11 +30,11 @@ A Spring Boot backend application for a Discussion Forum that supports Users, Po
 ## Project Structure
 
 com.example.demo
-- controller # Handles API requests
-- service # Business logic
-- repository # Database access
-- model # Entity classes
-- exception # Global exception handling
+- controller - Handles API requests
+- service - Business logic
+- repository - Database access
+- model - Entity classes
+- exception - Global exception handling
 
 ---
 
