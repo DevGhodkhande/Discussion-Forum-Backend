@@ -42,6 +42,7 @@ com.example.demo
 
 ```bash
 Step 1: Clone the repository: git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
+{Note: You can find the cloned file in C:\Users\(Username)}
 
 Step 2: Open IntelliJ or VS Code
 Then locate src/main/java/com.example.demo/DemoApplication.java
