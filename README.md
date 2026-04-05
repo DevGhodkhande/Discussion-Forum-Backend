@@ -30,11 +30,11 @@ A Spring Boot backend application for a Discussion Forum that supports Users, Po
 ## Project Structure
 
 com.example.demo
-├── controller # Handles API requests
-├── service # Business logic
-├── repository # Database access
-├── model # Entity classes
-└── exception # Global exception handling
+- controller # Handles API requests
+- service # Business logic
+- repository # Database access
+- model # Entity classes
+- exception # Global exception handling
 
 ---
 
@@ -43,7 +43,7 @@ com.example.demo
 ```bash
 1. Clone the repository: git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
 
-2. Open in IntelliJ / VS Code
+2. Open IntelliJ or VS Code
 
 3. DemoApplication.java
 
