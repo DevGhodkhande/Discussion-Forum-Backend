@@ -26,3 +26,47 @@ A Spring Boot backend application for a Discussion Forum that supports Users, Po
 - Postman (API Testing)
 
 ---
+
+## 📁 Project Structure
+
+com.example.demo
+├── controller # Handles API requests
+├── service # Business logic
+├── repository # Database access
+├── model # Entity classes
+└── exception # Global exception handling
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
+
+2. Open in IntelliJ / VS Code
+
+3. DemoApplication.java
+
+4. http://localhost:8080
+
+---
+
+======Sample Request======
+Create Post
+{
+  "title": "My First Post",
+  "content": "Hello backend!"
+}
+Create User
+{
+  "username": "devang",
+  "email": "devang@gmail.com",
+  "password": "1234"
+}
+Create Comment
+{
+  "text": "Nice post!",
+  "post": { "id": 1 },
+  "user": { "id": 1 }
+}
