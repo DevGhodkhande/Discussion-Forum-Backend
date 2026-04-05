@@ -61,6 +61,16 @@ Then go to Body → raw → and paste in JSON:
   "email": "devang@gmail.com",
   "password": "1234"
 }
+{
+  "username": "tech_sam",
+  "email": "sam.tech@example.com",
+  "password": "samPass456"
+}
+{
+  "username": "coder_riya",
+  "email": "riya.codes@example.com",
+  "password": "riyaPass789"
+}
 
 👉 Click Send
 
@@ -70,6 +80,18 @@ Then go to Body → raw → and paste in JSON:
 {
   "title": "My First Post",
   "content": "Hello backend!"
+}
+{
+  "title": "How to start with Spring Boot?",
+  "content": "I am new to Spring Boot. Can someone guide me with resources and best practices?"
+}
+{
+  "title": "Difference between JPA and Hibernate",
+  "content": "Can someone explain the difference between JPA and Hibernate in simple terms?"
+}
+{
+  "title": "Best way to learn backend development",
+  "content": "What roadmap should I follow to become a backend developer?"
 }
 
 👉 Click Send
@@ -82,8 +104,24 @@ Then go to Body → raw → and paste in JSON:
   "post": { "id": 1 },
   "user": { "id": 1 }
 }
+{
+  "text": "Start with official Spring docs and build small projects!",
+  "post": { "id": 2 },
+  "user": { "id": 2 }
+}
+{
+  "text": "JPA is a specification, Hibernate is its implementation.",
+  "post": { "id": 3 },
+  "user": { "id": 3 }
+}
+{
+  "text": "Focus on Java, Spring Boot, and databases first.",
+  "post": { "id": 4 },
+  "user": { "id": 1 }
+}
 
 👉 Click Send
+
 
 GET to view data
 
