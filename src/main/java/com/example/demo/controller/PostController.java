@@ -25,6 +25,11 @@ public class PostController {
         return service.getAll();
     }
 
+    @GetMapping("/")
+    public String home() {
+        return "Discussion Forum Backend Running 🚀";
+    }
+
     @GetMapping("/{id}")
     public Post getById(@PathVariable Long id) {
         return service.getById(id);
