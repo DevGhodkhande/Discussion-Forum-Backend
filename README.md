@@ -39,6 +39,7 @@ com.example.demo
 ---
 
 ## How to Run
+
 ```bash
 1. Clone the repository: git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
 
