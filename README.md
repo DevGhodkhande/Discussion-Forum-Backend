@@ -27,7 +27,7 @@ A Spring Boot backend application for a Discussion Forum that supports Users, Po
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 com.example.demo
 ├── controller # Handles API requests
@@ -38,7 +38,7 @@ com.example.demo
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 1. Clone the repository:
 ```bash
