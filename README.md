@@ -39,10 +39,8 @@ com.example.demo
 ---
 
 ## How to Run
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
+1. Clone the repository: git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
 
 2. Open in IntelliJ / VS Code
 
@@ -50,7 +48,6 @@ git clone https://github.com/DevGhodkhande/Discussion-Forum-Backend.git
 
 4. http://localhost:8080
 
----
 
 ======Sample Request======
 Create Post
